@@ -1,0 +1,16 @@
+{
+  "name": "dkoa-http-auth",
+  "description": "Authentication depending on the environment variables 'DHTTP_AUTH_USER' and 'DHTTP_AUTH_PASSWORD'",
+  "version": "1.0.0",
+  "homepage": "http://github.com/dnode/dkoa-http-auth",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "main": "src/middleware.js",
+  "dependencies": {
+    "koa-basic-auth": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dnode/dkoa-http-auth.git"
+  }
+}
